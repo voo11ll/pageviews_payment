@@ -1,0 +1,99 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="./edit.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<body>
+	
+	<div id="mySidenav" class="sidenav">
+	<p class="logo">NeroPay <span class="menu">☰</span></p>
+	<p class="logo1"> <span class="menu1">☰</span></p>
+  <a href="/set" class="icon-a"><i class='bx bxs-dashboard bx-tada bx-rotate-90' ></i></i>   Главное</a>
+  <a href="./form.html"class="icon-a"><i class='bx bxs-shopping-bags bx-tada bx-rotate-90'></i>  Платежи</a>
+  <a href="#"class="icon-a"><i class='bx bx-transfer-alt bx-tada bx-rotate-90'></i>   Переводы</a>
+  <a href="./form2.html"class="icon-a"><i class='bx bx-repost bx-tada bx-rotate-90' ></i>  Поплнение</a>
+  <a href="./form3.html"class="icon-a"><i class='bx bx-wallet bx-tada bx-rotate-90'></i>   Карты</a>
+  <a href="./form4.html"class="icon-a"><i class='bx bx-history bx-tada bx-rotate-90' ></i>   История операции</a>
+  <a href="./form5.html"class="icon-a"><i class='bx bxs-chat bx-tada bx-rotate-90' ></i>   Чат</a>
+  <a href="./form6.html"class="icon-a"><i class='bx bx-user bx-tada bx-rotate-90'></i>  Служба поддержки</a>
+  <a href="./form7.html"class="icon-a"><i class='bx bxs-cog bx-tada bx-rotate-90' ></i>   Профиль</a>
+
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+<p class="nav"> Переводы</p>
+
+</div>
+	
+<div class="col-div-6">
+    <i class="fa fa-search search-icon"></i>
+
+    
+    <i class="fa fa-bell noti-icon"></i>
+    <div class="notification-div">
+        <p class="noti-head">Уведомление <span>2</span></p>
+        <hr class="hr" />
+        <p>Платеж исполнен
+            <span>Поплнение 400р </span>
+        </p>
+        <p>Платеж исполнен
+            <span>Поплнение 400р </span>
+        </p>
+    </div>
+<div class="profile">
+
+    <img src="./imeg/photo3.png" class="pro-img" />
+    <p>User <i class="fa fa-ellipsis-v dots" aria-hidden="true"></i></p>
+    <div class="profile-div">
+        <p><i class="fa fa-user"></i>   Профиль</p>
+        <p><i class="fa fa-cogs"></i>   Настройки</p>
+        <p><i class="fa fa-power-off"></i>   Выход</p>
+    </div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Payment-page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="action">
+        <h1>Payment</h1>
+        <label for="name">Payer Name</label><br>
+        <input class="box" type="text" name="Pname" id="Pname" placeholder="Enter Name"><br>
+        <label for="pemail">Enter Email</label><br>
+        <input class="box" type="text" name="Pemail" id="Pemail" placeholder="Enter Email"><br>
+        <label for="cnum">Card Number</label><br>
+        <input class="box" type="number" name="cardNumber" id="cardNumber" placeholder="1234 1234 1234 1234"><br>
+        <div class="div1">
+            <label for="cardex">Card expiry month</label><br>
+            <input class="box2" type="month" name="month" id="month" placeholder="MM"><br>
+        </div>
+        <div class="div1">
+            <label for="year">Card expiry year</label><br>
+        <input class="box2" type="year" name="yaar" id="year" placeholder="yyyy"><br>
+        </div>
+        <div class="div1">
+            <label for="CVC">Card CVC</label><br>
+        <input class="box2" type="CVC" name="cvc" id="cvc" placeholder="cvc"><br>
+        </div>
+        <button class="btn" type="button">Pay now</button>
+        <button class="btn" type="button">close</button>
+    </form>
+</body>
+</html>

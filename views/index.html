@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика</title>
+    <link rel="shortcut icon" href="./assets/laptop.ico">
+    <link rel="stylesheet" href="./login.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+    <div class="conteiner">
+        
+        <form action="/" method="post">
+            
+            
+            
+                
+
+            <h1 class="form__title">Авторизация</h1>   
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input
+                 type="email"
+                 id="email"
+                 name="email" 
+                 class="form__input" 
+                 autofocus placeholder="Логин или email">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="form__input-group">
+                <input 
+                type="password"
+                id="password"
+                name="password"
+                class="form__input" 
+                autofocus placeholder="Пароль">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <button class="form__button" type="submit">Продолжить</button>
+
+        </form>
+            <p class="form__text">Нет аккаунта? 
+                    <a class="form__link" href="./regist">Создать аккаунт</a>  
+                
+            </p>
+
+    </div>
+
+    <script src="./main/main.js"></script>
+</body>
